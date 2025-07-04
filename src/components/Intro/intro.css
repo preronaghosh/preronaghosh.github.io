@@ -1,0 +1,99 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.bgImg {
+  position: absolute;
+  z-index: -1;
+  top: -1rem;
+  right: 0;
+  object-fit: cover;
+  height: 85vh;
+}
+
+.introContent {
+  height: 90vh;
+  width: 100vw;
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introRole {
+  color: rgb(219, 223, 221);
+  font-weight: bold;
+  font-size: 3rem;
+  border-right: 2px solid rgb(17, 143, 80);
+  animation: blinkCursor 1s step-end infinite;
+}
+
+@keyframes blinkCursor {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(17, 143, 80);
+  }
+}
+
+.introFullName {
+  color: rgb(17, 143, 80);
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+.introName {
+  color: rgb(17, 143, 80);
+  font-weight: bold;
+}
+
+.introPara {
+  font-size: small;
+  font-weight: 350;
+  letter-spacing: normal;
+  font-size: 1rem;
+  white-space: normal;    /* ensure wrapping */
+  word-wrap: break-word;  /* break long words */ 
+}
+
+.btn {
+  background: rgb(255, 255, 255);
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.btn:hover {
+  background-color: rgb(253, 254, 255);
+  transition: 1s;
+}
+
+.btnImg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
+
+@media screen and (max-width: 840px) {
+  .bgImg {
+    right: -10vw;
+  }
+  .introContent {
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .bgImg {
+    display: none;
+  }
+}

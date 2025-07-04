@@ -1,0 +1,49 @@
+#achievements {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.achievement-text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.achievement-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  gap: 2rem; /* gap between boxes */
+  max-width: 1200px; /* control width */
+  margin: 0 auto; /* center the grid */
+  padding: 0 2rem; /* side gaps */
+}
+
+.clickable-achievement-box {
+  text-decoration: none;
+  color: inherit;
+}
+
+.my-achievement {
+  background-color: #3f3a3a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.my-achievement:hover {
+  transform: translateY(-5px);
+}
+
+.achievement-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-desc {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+

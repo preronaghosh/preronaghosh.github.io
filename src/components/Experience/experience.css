@@ -1,0 +1,40 @@
+#experience {
+  min-height: calc(100vh - 4rem);
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.experience-container {
+  padding: 20px 50px 40px 50px;
+}
+
+.worksTitle {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.vertical-timeline-element-work {
+  border-radius: 16px;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1rem;
+}
+
+.vertical-timeline-element-other {
+  font-size: 200rem;
+}
+
+.timeline-logo {
+  width: 45px;
+  height: 38px;
+}
+
+
