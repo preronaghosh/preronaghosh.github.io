@@ -58,7 +58,9 @@ const Intro = () => {
     <section id="intro">
       <div className="introContent">
         <span className="introText">
-          Hi, I am <span className="introFullName">{displayedName}</span>
+          <span className="introHello"> Hello! </span> 
+          <br/> 
+          My name is <span className="introFullName">{displayedName}</span>
           <br />
           I am <span className="introRole">{displayedRole}</span>
         </span>

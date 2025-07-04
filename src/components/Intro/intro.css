@@ -19,7 +19,8 @@
 .introContent {
   height: 90vh;
   width: 100vw;
-  padding: 1rem;
+  padding: 4rem;
+  padding-top: 0.1rem;
   font-size: 3rem;
   font-weight: 700;
   display: flex;
@@ -42,6 +43,12 @@
   50% {
     border-color: rgb(17, 143, 80);
   }
+}
+
+.introHello {
+  color: rgb(219, 223, 221);
+  font-weight: bold;
+  font-size: 6rem;
 }
 
 .introFullName {
