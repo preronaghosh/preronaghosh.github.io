@@ -23,7 +23,7 @@
 }
 
 .my-achievement {
-  background-color: #3f3a3a;
+  background-color: #DCD1D1;
   padding: 1.5rem;
   border-radius: 10px;
   height: 100%;
@@ -39,11 +39,14 @@
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  color: #4d3939;
 }
 
 .achievement-desc {
   font-size: 1rem;
   line-height: 1.4;
+  color: #666666;
 }
+
 
 

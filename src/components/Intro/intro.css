@@ -29,10 +29,10 @@
 }
 
 .introRole {
-  color: rgb(219, 223, 221);
+  color: rgb(77, 57, 57);
   font-weight: bold;
   font-size: 3rem;
-  border-right: 2px solid rgb(17, 143, 80);
+  border-right: 2px solid rgb(156, 148, 148);
   animation: blinkCursor 1s step-end infinite;
 }
 
@@ -46,19 +46,19 @@
 }
 
 .introHello {
-  color: rgb(219, 223, 221);
+  color: rgb(77, 57, 57);
   font-weight: bold;
   font-size: 6rem;
 }
 
 .introFullName {
-  color: rgb(17, 143, 80);
+  color: rgb(77, 57, 57);
   font-weight: bold;
   font-size: 4.5rem;
 }
 
 .introName {
-  color: rgb(17, 143, 80);
+  color: rgb(10, 10, 10);
   font-weight: bold;
 }
 

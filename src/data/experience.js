@@ -63,8 +63,8 @@ export const experienceStyles = {
     
   },
   content: {
-    background: "#2C2C2C",
-    color: "#ffffff",
+    background: "#DCD1D1",
+    color: "#372f2fff",
   },
   arrowStyle: {
     borderRight: "7px solid #E7E7EB",
