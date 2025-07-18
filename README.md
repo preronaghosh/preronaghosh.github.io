@@ -5,7 +5,7 @@ npm start
 
 ## Todo:
 
-1. change to light mode
-2. maybe add both modes
-3. add github projects
-4. more design changes eventually
+1. Change to light mode
+2. Change layout for the following sections:
+    - projects (add images of the project demo) with arrows for scrolling to next one
+    - Skills section (what do I do? part)
