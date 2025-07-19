@@ -1,7 +1,15 @@
+#### To run the website locally:
 ```bash
 npm install
 npm start
 ```
+
+#### To re-build and Deploy:
+- Push local changes to main branch and run the following command:
+```bash
+npm run deploy # This runs npm run build automatically
+```
+
 
 ## Todo:
 1. Change layout for the following sections:
