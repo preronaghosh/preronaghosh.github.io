@@ -1,7 +1,8 @@
 import "./skills.css";
-import njIcon from "../../assets/nj_logo.svg";
-import reactIcon from "../../assets/react.png";
-import otherIcon from "../../assets/other.png";
+import linuxIcon from "../../assets/linux.png";
+import streamIcon from "../../assets/streaming.png";
+import vmIcon from "../../assets/vms.jpg";
+import opsIcon from "../../assets/devops.png";
 
 const Skills = () => {
   return (
@@ -16,7 +17,7 @@ const Skills = () => {
       <div className="skillBars">
         <div className="skillBar">
           <img
-            src={njIcon}
+            src={linuxIcon}
             alt="NodeJS Backend Development"
             className="skillBarImg"
           />
@@ -30,7 +31,7 @@ const Skills = () => {
         </div>
         <div className="skillBar">
           <img
-            src={reactIcon}
+            src={streamIcon}
             alt="React Frontend Development"
             className="skillBarImg"
           />
@@ -42,7 +43,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="skillBar">
-          <img src={otherIcon} alt="Other" className="skillBarImg" />
+          <img src={vmIcon} alt="Other" className="skillBarImg" />
           <div className="skillBarText">
             <h2>System Simulation & Virtualization</h2>
             <p>QEMU for embedded virtualization, Docker within QEMU for isolated testing, 
@@ -51,7 +52,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="skillBar">
-          <img src={otherIcon} alt="Other" className="skillBarImg" />
+          <img src={opsIcon} alt="Other" className="skillBarImg" />
           <div className="skillBarText">
             <h2>Tools & Technologies</h2>
             <p>
