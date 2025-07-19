@@ -1,4 +1,4 @@
-import Achievements from "./components/Achievements/achievements";
+import Achievements from "./components/Projects/achievements";
 import ContactMe from "./components/ContactMe/contactMe";
 import Experience from "./components/Experience/experience";
 import Footer from "./components/Footer/footer";
