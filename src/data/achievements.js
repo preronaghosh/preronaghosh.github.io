@@ -81,7 +81,7 @@ export const achievements = [
   {
     id: 12,
     achievement_name: "Optimal Vertex Cover Graph",
-    achievement_description: "The project is to help the local police department with their installation of security cameras at traffic intersections by solving a particular kind of optimization problem called the Vertex Cover problem. The optimized positions have been calculated using Shortest Path Algorithms, as well as SAT solvers.",
+    achievement_description: "The project is to help the local police department with their installation of security cameras at traffic intersections by solving a particular kind of optimization problem called the Vertex Cover problem. The optimized positions have been calculated using Shortest Path Algorithms and SAT solvers.",
     link: "https://github.com/preronaghosh/Optimal-Vertex-Cover-Graph"
 
   }

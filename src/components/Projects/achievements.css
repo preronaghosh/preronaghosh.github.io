@@ -5,7 +5,7 @@
 
 .achievement-text {
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 }
 
 /* Arrow + tile container */
@@ -18,15 +18,14 @@
 
 /* Limits width of visible project area */
 .carousel-viewport {
-  max-width: 900px; /* Controls how wide the tile row is */
-  width: 100%;
+  width: 65%;
 }
 
 /* Grid of tiles */
 .achievement-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 tiles per row */
-  gap: 1rem;
+  gap: 2rem;
 }
 
 /* Arrow buttons */
@@ -54,7 +53,7 @@
   background-color: #DCD1D1;
   padding: 1.5rem;
   border-radius: 10px;
-  height: 100%;
+  height: 400px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
@@ -64,9 +63,9 @@
 }
 
 .achievement-name {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
   color: #4d3939;
 }
 

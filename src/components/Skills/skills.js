@@ -1,4 +1,3 @@
-import React from "react";
 import "./skills.css";
 import njIcon from "../../assets/nj_logo.svg";
 import reactIcon from "../../assets/react.png";
@@ -7,7 +6,7 @@ import otherIcon from "../../assets/other.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <span className="skillTitle">What Do I Do?</span>
+      <span className="skillTitle">Areas of Focus</span>
       <span className="skillDesc">
       Currently working at <span className="introName"> Ford Motor Company of Canada </span> as a  
       <span className="introName"> Software Engineer </span>

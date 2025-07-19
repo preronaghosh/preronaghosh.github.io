@@ -11,15 +11,15 @@
 }
 
 .skillTitle {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 3.5rem;
+  font-weight: 400;
   padding-top: 0.0rem;
   margin-bottom: 1.5rem;
 }
 .skillDesc {
   font-weight: 300;
-  font-size: 1.1rem;
-  max-width: 50rem;
+  font-size: 1.2rem;
+  max-width: 70rem;
   padding: 0 6rem;
 }
 
