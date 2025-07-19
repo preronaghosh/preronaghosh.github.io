@@ -4,19 +4,47 @@
 }
 
 .achievement-text {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }
 
-.achievement-row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 per row */
-  gap: 2rem; /* gap between boxes */
-  max-width: 1200px; /* control width */
-  margin: 0 auto; /* center the grid */
-  padding: 0 2rem; /* side gaps */
+/* Arrow + tile container */
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
+/* Limits width of visible project area */
+.carousel-viewport {
+  max-width: 900px; /* Controls how wide the tile row is */
+  width: 100%;
+}
+
+/* Grid of tiles */
+.achievement-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 tiles per row */
+  gap: 1rem;
+}
+
+/* Arrow buttons */
+.carousel-btn {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  color: #333;
+}
+
+.carousel-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+/* Tile styles */
 .clickable-achievement-box {
   text-decoration: none;
   color: inherit;
@@ -47,6 +75,5 @@
   line-height: 1.4;
   color: #666666;
 }
-
 
 
