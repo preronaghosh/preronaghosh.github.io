@@ -9,14 +9,6 @@ const Navbar = () => {
   const openResume = () => {
     window.open("resume.pdf", "_blank");
   };
-  function contactMeOnClickFunction() {
-    return () => {
-      document.getElementById("contact").scrollIntoView({
-        behavior: "smooth",
-        offset: -50,
-      });
-    };
-  }
 
   return (
     <nav className="navbar">
