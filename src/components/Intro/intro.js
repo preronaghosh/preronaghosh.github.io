@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./intro.css";
+import dp from "../../assets/prerona.jpg";
 
 const roles = [
   "a Software Engineer",
@@ -10,20 +11,20 @@ const roles = [
 
 const Intro = () => {
   const fullName = "Prerona Ghosh.";
-  const [displayedName, setDisplayedName] = useState("");
+  const [displayedName, setDisplayedName] = useState(fullName);
   const [roleIndex, setRoleIndex] = useState(0);
   const [displayedRole, setDisplayedRole] = useState("");
 
   // Type out the fullName once on mount
-  useEffect(() => {
-    let i = 0;
-    const nameInterval = setInterval(() => {
-      setDisplayedName(fullName.slice(0, i + 1));
-      i++;
-      if (i === fullName.length) clearInterval(nameInterval);
-    }, 100);
-    return () => clearInterval(nameInterval);
-  }, []);
+  // useEffect(() => {
+  //   let i = 0;
+  //   const nameInterval = setInterval(() => {
+  //     setDisplayedName(fullName.slice(0, i + 1));
+  //     i++;
+  //     if (i === fullName.length) clearInterval(nameInterval);
+  //   }, 100);
+  //   return () => clearInterval(nameInterval);
+  // }, []);
 
   // Typing effect for rotating roles
   useEffect(() => {
@@ -58,8 +59,8 @@ const Intro = () => {
     <section id="intro">
       <div className="introContent">
         <span className="introText">
-          <span className="introHello"> Hello! </span> 
-          <br/> 
+          <span className="introHello"> Hello! 👋 </span>
+          <br />
           My name is <span className="introFullName">{displayedName}</span>
           <br />
           I am <span className="introRole">{displayedRole}</span>
@@ -79,6 +80,9 @@ const Intro = () => {
         <p className="introPara">
           Outside of work, I like to read, sing, watch movies and play games!
         </p>
+      </div>
+      <div className="introImageWrapper">
+        <img src={dp} alt="Profile Photo" className="dpImg" />
       </div>
     </section>
   );

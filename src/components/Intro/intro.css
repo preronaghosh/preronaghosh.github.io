@@ -1,27 +1,21 @@
 #intro {
   height: calc(100vh - 4rem);
-  width: 100vw;
-  max-width: 75rem;
+  max-width: 95rem;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-}
 
-.bgImg {
-  position: absolute;
-  z-index: -1;
-  top: -1rem;
-  right: 0;
-  object-fit: cover;
-  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .introContent {
-  height: 90vh;
-  width: 100vw;
-  padding: 4rem;
-  padding-top: 0.1rem;
-  font-size: 3rem;
+  flex: 0 0 60%;
+  height: auto;
+  font-size: 2.5rem;
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -31,13 +25,14 @@
 .introRole {
   color: rgb(77, 57, 57);
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-right: 2px solid rgb(156, 148, 148);
   animation: blinkCursor 1s step-end infinite;
 }
 
 @keyframes blinkCursor {
-  from, to {
+  from,
+  to {
     border-color: transparent;
   }
   50% {
@@ -48,13 +43,13 @@
 .introHello {
   color: rgb(77, 57, 57);
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .introFullName {
   color: rgb(77, 57, 57);
   font-weight: bold;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 .introName {
@@ -63,44 +58,52 @@
 }
 
 .introPara {
-  font-size: small;
+  font-size: 1.25rem;
   font-weight: 350;
   letter-spacing: normal;
-  font-size: 1rem;
-  white-space: normal;    /* ensure wrapping */
-  word-wrap: break-word;  /* break long words */ 
+  white-space: normal;
+  word-wrap: break-word;
+  margin-top: 0.5rem;
 }
 
-.btn {
-  background: rgb(255, 255, 255);
-  margin: 1rem 0;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 2rem;
+.introImageWrapper {
+  flex: 0 0 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn:hover {
-  background-color: rgb(253, 254, 255);
-  transition: 1s;
-}
-
-.btnImg {
+.dpImg {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
   object-fit: cover;
-  margin: 0 0.25rem;
-  height: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Responsive */
 
 @media screen and (max-width: 840px) {
-  .bgImg {
-    right: -10vw;
-  }
   .introContent {
-    font-size: 10vw;
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .bgImg {
-    display: none;
+  #intro {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .introContent,
+  .introImageWrapper {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .dpImg {
+    max-width: 250px;
+    margin: 1rem auto 0;
   }
 }
