@@ -81,7 +81,7 @@ const ContactMe = (e) => {
         pauseOnHover
         theme="dark"
       />
-      <h1 className="contactPageTitle">Contact Me</h1>
+      <h1 className="contactPageTitle">Let's Connect!</h1>
       <div className="row">
         <div className="col-md-5">
           <div className="reachme-title">

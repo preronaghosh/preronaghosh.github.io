@@ -23,7 +23,7 @@ const Achievements = () => {
 
   return (
     <section id="achievements">
-      <h2 className="achievement-text">Projects</h2>
+      <h2 className="achievement-text">Things I've Built</h2>
 
       <div className="carousel-wrapper">
         <button onClick={handlePrev} disabled={page === 0} className="carousel-btn">

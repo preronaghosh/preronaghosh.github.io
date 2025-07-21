@@ -7,7 +7,7 @@ import opsIcon from "../../assets/devops.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <span className="skillTitle">Areas of Focus</span>
+      <span className="skillTitle">What I Specialize In</span>
       <span className="skillDesc">
       Currently working at <span className="introName"> Ford Motor Company of Canada </span> as a  
       <span className="introName"> Software Engineer </span>
