@@ -5,7 +5,7 @@ export const experienceData = {
       company: "Ford Motor Company, Waterloo, Canada",
       companyLogo:  "ford", 
       jobTitle: "Software Engineer",     
-      date: "March 2024 - Present",
+      date: "March 2024 - May 2025",
       skills:
       "Tech Stack: C++, Python, Linux, QNX RTOS, CMake, Shared Memory, GStreamer, AWS Kinesis, Bash",
       icon: "",
